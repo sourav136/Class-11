@@ -1,0 +1,122 @@
+nav{
+    background-color: #faf0f0;
+}
+
+nav .container .collapse .navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .navbar-nav .nav-item .btn{
+    background-color: red;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 13px 19px;
+    border-radius: 10px;
+}
+
+.navbar .navbar-nav .nav-item .btn a{
+    text-decoration: none;
+    color: white;
+}
+
+nav .container .collapse ul{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#cards .container{
+    background-color: #faf9fd;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#cards .container h2{
+    font-weight: 600;
+    padding: 46px 0px 0px;
+}
+
+#cards .container span{
+    text-align: center;
+    color: #605f62;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 789px;
+    padding: 15px 0px 58px;
+    font-weight: 400;
+}
+
+.radius{
+    border-radius: 25px;
+}
+
+.radius-top{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#cards .container .row .col-lg-4 .card .price p{
+    font-size: 16px;
+    color: #434242;
+    font-weight: 600;
+}
+
+#cards .container .row .col-lg-4 .card .price a{
+    font-size: 14px;
+    color: #8c0000;
+    font-weight: 500;
+}
+
+footer{
+    background-color: #403532;
+    color: white;
+}
+
+footer .container p{
+    font-size: 19px;
+    color: #bab5ad;
+    margin: 0px 60px;
+    padding: 5px 0px 39px;
+}
+
+footer .container .text{
+    max-width: 674px;
+    margin: 0 auto;
+    padding-bottom: 96px;
+    text-align: center;
+}
+
+ footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-icon{
+    font-size: 16px;
+    color: #bab5ad;
+}
+
+.footer-text{
+    font-size: 16px;
+    color: #bab5ad;
+}
+
+footer h5{
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0PX 0PX 22PX;
+}
+
+footer ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #bab5ad;
+    margin: 0px 0px 17px;
+    display: block;
+}
